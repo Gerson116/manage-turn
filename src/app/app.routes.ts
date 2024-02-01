@@ -13,6 +13,10 @@ export const routes: Routes = [
     loadChildren: () => import('./auth/auth.routes').then((m) => m.authRoutes),
   },
   {
+    path: MenuConstant.Turn,
+    loadChildren: () => import('./turn/turn.routes').then((m) => m.turnRoutes),
+  },
+  {
     path: '**',
     component: PageNotFoundComponent,
   },
