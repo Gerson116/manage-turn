@@ -1,0 +1,68 @@
+<!-- Button trigger modal -->
+<button
+  type="button"
+  class="btn btn-primary"
+  data-bs-toggle="modal"
+  data-bs-target="#staticBackdrop"
+>
+  <i-feather name="eye" class="iconElement"></i-feather>
+</button>
+
+<!-- Modal -->
+<div
+  class="modal fade"
+  id="staticBackdrop"
+  data-bs-backdrop="static"
+  data-bs-keyboard="false"
+  tabindex="-1"
+  aria-labelledby="staticBackdropLabel"
+  aria-hidden="true"
+>
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="staticBackdropLabel">
+          Detalle del Servicio
+        </h1>
+        <button
+          type="button"
+          class="btn-close"
+          data-bs-dismiss="modal"
+          aria-label="Close"
+        ></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label for="clientLastname">Nombre(s)</label>
+            <input type="text" name="clientLastname" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="clientName">Nombre(s):</label>
+            <input type="text" name="clientName" class="form-control" />
+          </div>
+          <div class="form-group">
+            <label for="clientIdentification">Cédula:</label>
+            <input
+              type="text"
+              name="clientIdentification"
+              class="form-control"
+            />
+          </div>
+          <div class="form-group">
+            <label for="clientServices">Servicio:</label>
+            <input type="text" name="clientServices" class="form-control" />
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">
+          Close
+        </button>
+        <button type="button" class="btn btn-primary">
+          <i-feather name="volume-2" class="iconElement"></i-feather>
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
