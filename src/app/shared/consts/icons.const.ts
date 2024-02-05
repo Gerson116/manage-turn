@@ -7,6 +7,7 @@ import {
   Volume2,
   Search,
   LogIn,
+  PlusCircle,
 } from 'angular-feather/icons';
 
 export const IconsConst = {
@@ -18,4 +19,5 @@ export const IconsConst = {
   Volume2,
   Search,
   LogIn,
+  PlusCircle,
 };

@@ -22,3 +22,4 @@ ng generate module icons
 
 - **Boostrap**
 - **Sweetalert2**
+- **Pure CSS Loaders**

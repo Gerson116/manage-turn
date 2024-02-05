@@ -10,10 +10,6 @@ export const turnRoutes: Routes = [
     component: ListTurnComponent,
   },
   {
-    path: MenuConstant.Turn,
-    component: ListTurnComponent,
-  },
-  {
     path: MenuConstant.Client,
     component: SearchClientComponent,
   },
