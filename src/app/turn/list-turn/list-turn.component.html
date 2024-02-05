@@ -1,0 +1,103 @@
+<div class="container">
+  <div class="row align-self-end">
+    <div class="col-md-4 mt-3">
+      <div class="input-group mb-3">
+        <input
+          type="text"
+          class="form-control"
+          placeholder="Cedula"
+          aria-label="Cedula"
+          aria-describedby="button-addon2"
+        />
+        <button
+          class="btn btn-outline-secondary"
+          type="button"
+          id="button-addon2"
+        >
+          <i-feather name="search"></i-feather>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-1">
+    <div class="col-md-12">
+      <h3>Listar Turnos</h3>
+      <table class="table table-strip text-center">
+        <tr>
+          <th>Tipo de Turno</th>
+          <th>Estado</th>
+          <th>Asignado a</th>
+          <th>Acciones</th>
+        </tr>
+        <tr>
+          <td>Atención al usuario</td>
+          <td>Pendiente</td>
+          <td>Null</td>
+          <td>
+            <app-turn-maintenance></app-turn-maintenance>
+            <button
+              type="button"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-title="Tooltip on top"
+              class="btn btn-primary mr-2"
+            >
+              <i-feather name="volume-2" class="iconElement"></i-feather>
+            </button>
+            <button
+              type="button"
+              data-bs-toggle="tooltip"
+              data-bs-placement="top"
+              data-bs-title="Tooltip on top"
+              class="btn btn-danger"
+            >
+              <i-feather name="x-circle"></i-feather>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Pago de Prestamo</td>
+          <td>Pendiente</td>
+          <td>Null</td>
+          <td>
+            <app-turn-maintenance></app-turn-maintenance>
+            <button type="button" class="btn btn-primary">
+              <i-feather name="volume-2" class="iconElement"></i-feather>
+            </button>
+            <button type="button" class="btn btn-danger">
+              <i-feather name="x-circle"></i-feather>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Retiro</td>
+          <td>En proceso</td>
+          <td>Null</td>
+          <td>
+            <app-turn-maintenance></app-turn-maintenance>
+            <button type="button" class="btn btn-primary">
+              <i-feather name="volume-2" class="iconElement"></i-feather>
+            </button>
+            <button type="button" class="btn btn-danger">
+              <i-feather name="x-circle"></i-feather>
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td>Pago de prestamo</td>
+          <td>En proceso</td>
+          <td>Null</td>
+          <td>
+            <app-turn-maintenance></app-turn-maintenance>
+            <button type="button" class="btn btn-primary">
+              <i-feather name="volume-2" class="iconElement"></i-feather>
+            </button>
+            <button type="button" class="btn btn-danger">
+              <i-feather name="x-circle"></i-feather>
+            </button>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>

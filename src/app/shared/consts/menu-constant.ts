@@ -3,4 +3,7 @@ export const MenuConstant = {
   Auth: 'auth',
   Login: 'login',
   Home: 'home',
+  Turn: 'turn',
+  Client: 'client',
+  NewTicket: 'new-ticket',
 };

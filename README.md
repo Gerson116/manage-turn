@@ -12,8 +12,14 @@ _Step by step_
 npm i
 ```
 
+```
+ng generate module icons
+```
+
 ### Libraries
 
 **In this section you can see the libraries used in the project**
 
 - **Boostrap**
+- **Sweetalert2**
+- **Pure CSS Loaders**
